@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+/ide/eclipse/pc/projects/libs/libjacoap/.settings
+/ide/eclipse/pc/workspace/.metadata
+/ide/eclipse/pc/workspace/RemoteSystemsTempFiles
