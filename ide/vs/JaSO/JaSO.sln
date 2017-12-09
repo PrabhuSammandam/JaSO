@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libJaSO", "libJaSO\libJaSO.vcxproj", "{0363DA83-6524-4D12-98F9-F1530DBF94E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APPS", "APPS", "{D7CFF06E-EE93-4D3F-A027-A9BC2B6575E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LIBS", "LIBS", "{14A50558-B352-412A-A544-87137F90E442}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleServer", "SimpleServer\SimpleServer.vcxproj", "{A9981DED-12EA-485B-B030-90725F47D149}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0363DA83-6524-4D12-98F9-F1530DBF94E9}.Debug|x64.ActiveCfg = Debug|x64
+		{0363DA83-6524-4D12-98F9-F1530DBF94E9}.Debug|x64.Build.0 = Debug|x64
+		{0363DA83-6524-4D12-98F9-F1530DBF94E9}.Debug|x86.ActiveCfg = Debug|Win32
+		{0363DA83-6524-4D12-98F9-F1530DBF94E9}.Debug|x86.Build.0 = Debug|Win32
+		{0363DA83-6524-4D12-98F9-F1530DBF94E9}.Release|x64.ActiveCfg = Release|x64
+		{0363DA83-6524-4D12-98F9-F1530DBF94E9}.Release|x64.Build.0 = Release|x64
+		{0363DA83-6524-4D12-98F9-F1530DBF94E9}.Release|x86.ActiveCfg = Release|Win32
+		{0363DA83-6524-4D12-98F9-F1530DBF94E9}.Release|x86.Build.0 = Release|Win32
+		{A9981DED-12EA-485B-B030-90725F47D149}.Debug|x64.ActiveCfg = Debug|x64
+		{A9981DED-12EA-485B-B030-90725F47D149}.Debug|x64.Build.0 = Debug|x64
+		{A9981DED-12EA-485B-B030-90725F47D149}.Debug|x86.ActiveCfg = Debug|Win32
+		{A9981DED-12EA-485B-B030-90725F47D149}.Debug|x86.Build.0 = Debug|Win32
+		{A9981DED-12EA-485B-B030-90725F47D149}.Release|x64.ActiveCfg = Release|x64
+		{A9981DED-12EA-485B-B030-90725F47D149}.Release|x64.Build.0 = Release|x64
+		{A9981DED-12EA-485B-B030-90725F47D149}.Release|x86.ActiveCfg = Release|Win32
+		{A9981DED-12EA-485B-B030-90725F47D149}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0363DA83-6524-4D12-98F9-F1530DBF94E9} = {14A50558-B352-412A-A544-87137F90E442}
+		{A9981DED-12EA-485B-B030-90725F47D149} = {D7CFF06E-EE93-4D3F-A027-A9BC2B6575E3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81908E95-9FDB-4FBD-8866-404EB460D847}
+	EndGlobalSection
+EndGlobal
